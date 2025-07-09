@@ -10,6 +10,6 @@ title: GitHub Training
 
 <ul>
 {% for member in site.participants %}
-  <li><a href="{{ member.url }}">{{ member.title }}</a></li>
+  <li><a href="{{ member.url | relative_url }}">{{ member.title }}</a></li>
 {% endfor %}
 </ul>
