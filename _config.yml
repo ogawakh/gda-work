@@ -2,6 +2,8 @@ title: GitHub Training Static Site
 description: Simple PR exercise without local build
 theme: minima
 markdown: kramdown
+url: "https://ogawakh.github.io"
+baseurl: "/gda-work"
 
 collections:
   participants:
