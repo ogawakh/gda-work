@@ -1,1 +1,13 @@
 body { font-family: sans-serif; max-width: 640px; margin: auto; padding: 1rem; }
+
+table {
+  border-collapse: collapse;   /* 線を重ねず 1 本にする */
+}
+
+table, th, td {
+  border: 1px solid #aaa;      /* 色や太さはお好みで */
+}
+
+th, td {
+  padding: 4px 6px;            /* 読みやすい余白 */
+}
