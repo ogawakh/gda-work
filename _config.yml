@@ -1,0 +1,9 @@
+title: GitHub Training Static Site
+description: Simple PR exercise without local build
+theme: minima
+markdown: kramdown
+
+collections:
+  participants:
+    output: true
+    permalink: /participants/:name/
